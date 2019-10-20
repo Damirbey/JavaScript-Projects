@@ -12,12 +12,13 @@ Change the game to follow these rules:
 var Scores, RoundScore, ActivePlayer, gameContinue;
 
 var lastDice,WinningScore;
+
 //Calling initialize function to set initial properties for the game
 
 initialize();
 
-
 //Event Listener for Roll Dice button
+
 document.querySelector('.btn-roll').addEventListener('click',function(){
     if(gameContinue)
         {
